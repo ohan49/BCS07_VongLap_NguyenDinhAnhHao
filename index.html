@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="hover-min.css" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+    </header>
+    <main>
+      <div class="container">
+        <h1>JS Buổi 6</h1>
+      </div>
+      <!-- BT1  -->
+      <div class="container mt-5">
+        <div class="traditional box">
+          <h2>Tìm Số nguyên dương nhỏ nhất sao cho: 1 + 2 + ... + n > 10000</h2>
+          <button
+            class="btn btn-primary hvr-ripple-out hvr-sweep-to-right start-50"
+            id="timSo"
+            onclick="timSo()"
+          >
+            Nhấn để tìm kết quả
+          </button>
+          <div
+            class="bg-success text-center opacity-75 p-3 my-3 text-white"
+            id="xuatKetQua"
+          ></div>
+        </div>
+      </div>
+      <!-- BT2 -->
+      <div class="container mt-5">
+        <div class="traditional box">
+          <h2>
+            Viết chương trình nhập vào 2 số x, n tính tổng S(n) = x + x^2 + x^3
+            + ... + x^n
+          </h2>
+          <div class="mb-3">
+            <label for="" class="form-label">Nhập vào x</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id="x"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+            <label for="" class="form-label">Nhập vào n</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id="n"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+          </div>
+          <button
+            class="btn btn-primary hvr-ripple-out hvr-sweep-to-right start-50"
+            id="timTong"
+            onclick="timTong()"
+          >
+            Nhấn để tìm kết quả
+          </button>
+          <div
+            class="bg-success text-center opacity-75 p-3 my-3 text-white"
+            id="bT2"
+          ></div>
+        </div>
+      </div>
+      <!-- BT3 -->
+      <div class="container mt-5">
+        <div class="traditional box">
+          <h2>nhập vào n tính giai thừa</h2>
+          <div class="mb-3">
+            <label for="" class="form-label">Nhập vào n</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id="n1"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+          </div>
+          <button
+            class="btn btn-primary hvr-ripple-out hvr-sweep-to-right start-50"
+            id="timGiaiThua"
+            onclick="timGiaiThua()"
+          >
+            Nhấn để tìm kết quả
+          </button>
+          <div class="p-5"></div>
+        </div>
+      </div>
+      <!-- BT4 -->
+      <div class="container mt-5">
+        <div class="traditional box">
+          <h2>
+            Click vào button sẽ in ra 10 thẻ div. Nếu div chẵn thì màu đỏ lẻ thì
+            màu xanh
+          </h2>
+          <button
+            class="btn btn-primary hvr-ripple-out hvr-sweep-to-right start-50"
+            id="inRaDiv"
+            onclick="inRaDiv()"
+          >
+            Nhấn để tìm kết quả
+          </button>
+          <div class="bT4 p-5"></div>
+        </div>
+      </div>
+      <!-- BT5 -->
+      <div class="container mt-5">
+        <div class="traditional box">
+          <h2>In ra số nguyên tố</h2>
+          <div class="mb-3">
+            <label for="" class="form-label">Nhập vào n</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id="n2"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+          </div>
+          <button
+            class="btn btn-primary hvr-ripple-out hvr-sweep-to-right start-50"
+            id="nguyenTo"
+            onclick="nguyenTo()"
+          >
+            Nhấn để tìm kết quả
+          </button>
+          <div
+            class="bg-success text-center opacity-75 p-3 my-3 text-white"
+            id="bT5"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
